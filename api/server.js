@@ -2,7 +2,8 @@
 const express = require('express');
 const helmet = require('helmet');
 
-//project router
+
+const projectsRouter = require('./project/router');
 //resource router
 //task router
 
